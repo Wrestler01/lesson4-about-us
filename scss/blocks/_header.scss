@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    width: 1280px;
+    height: 100px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    &__image {
+        width: 236px;
+        height: 26px;
+    }
+
+    &__list {
+        display: flex;
+        flex-grow: center;
+        align-items: center;
+        list-style-type: none;
+        justify-content: space-between;
+    }
+
+    &__item {
+        margin-right: 33px;
+    }
+
+    &__link {
+        font-size: 12px;
+        color: #83888f;
+        font-weight: bold;
+        line-height: 15px;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Barlow", sans-serif;
+    }
+
+}

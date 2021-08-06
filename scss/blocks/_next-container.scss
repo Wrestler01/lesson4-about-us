@@ -1,0 +1,39 @@
+.next-container {
+    width: 1110px;
+    height: 520px;
+    border-radius: 5px;
+    margin: 168px auto;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 445px 520px;
+    background-image: url("..//image/mini-image2x.png");
+
+    &__inner {
+        width: 540px;
+        height: 340px;
+        padding: 90px 0 90px 570px;
+    }
+
+    &__heading {
+        width: 357px;
+        height: 48px;
+        font-size: 40px;
+        font-weight: 900;
+        color: #333D4B;
+        line-height: 48px;
+        font-style: normal;
+        font-family: "Fraunces" sans-serif;
+    }
+
+    &__text {
+        width: 540px;
+        height: 260px;
+        font-size: 16px;
+        color: #333d4b;
+        line-height: 26px;
+        font-style: normal;
+        font-weight: normal;
+        text-align: left;
+        font-family: "Barlow", sans-serif;
+    }
+}

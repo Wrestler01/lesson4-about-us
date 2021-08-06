@@ -1,0 +1,87 @@
+.second-part {
+    width: 1045px;
+    height: 366px;
+    margin-top: 168px;
+    margin-left: 165px;
+
+
+    &__heading {
+        width: 255px;
+        height: 32px;
+        font-size: 24px;
+        font-weight: 900;
+        color: #83888F;
+        line-height: 32px;
+        font-style: normal;
+        padding-bottom: 72px;
+        font-family: "Fraunces" sans-serif;
+    }
+
+    &__list {
+        display: flex;
+        width: 1045px;
+        height: 262px;
+        align-items: center;
+        list-style-type: none;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 285px;
+        height: 167px;
+        margin-right: 95px;
+
+        &__second-part-uk::before {
+            display: inline-block;
+            padding-bottom: 45.93px;
+            background-size: 40.84px 49.07px;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-image: url("..//image/UK1x.png");
+        }
+
+        &__second-part-canada::before {
+            display: inline-block;
+            padding-bottom: 45.93px;
+            background-size: 51.56px 49.96px;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: skyblue;
+            background-image: url("..//image/UK1x.png");
+        }
+
+        &__second-part-australia::before {
+            display: inline-block;
+            padding-bottom: 45.93px;
+            background-size: 48.97px 43.94px;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: skyblue;
+            background-image: url("..//image/UK1x.png");
+        }
+
+        &__heading {
+            width: 272px;
+            height: 36px;
+            font-size: 32px;
+            font-weight: 900;
+            color: #333D4B;
+            line-height: 36px;
+            font-style: normal;
+            padding-bottom: 24px;
+            font-family: "Fraunces" sans-serif;
+        }
+
+        &__text {
+            width: 285px;
+            height: 107px;
+            font-size: 16px;
+            color: #333D4B;
+            line-height: 26px;
+            font-style: normal;
+            font-weight: normal;
+            font-family: "Barlow", sans-serif;
+        }
+    }
+    
+}
